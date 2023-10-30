@@ -1,0 +1,32 @@
+{
+    "name": "shasoft/cdump",
+    "type": "library",
+    "description": "Package for outputting PHP variables to the browser console",
+    "keywords": [
+        "dump",
+        "debug",
+        "php",
+        "browse",
+        "console"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shasoft\\CDump\\": "classes"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shasoft\\CDumpTest\\": "tests/classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shabanov Valera",
+            "email": "shasoft_cdump@shasoft.com"
+        }
+    ]
+}
